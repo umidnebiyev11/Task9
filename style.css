@@ -1,0 +1,258 @@
+@media screen and{
+    min-width: 920px;
+    max-width: 1224px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #f8f8f8;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.top-bar{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+}
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.hero-image{
+    flex: 1;
+    min-width: 300px;
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-text{
+    display: flex;
+    flex: 1;
+    min-width: 300px;
+    background-color: #451316;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+.hero-text h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.shop-btn{
+    background-color: #fff;
+    color: #801e1e;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.fall-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 5%;
+    background-color: #f6f6f6;
+    flex-wrap: wrap;
+}
+.fall-text {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 40px;
+} 
+.fall-text h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+} 
+.fall-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+.fall-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.fall-images {
+    flex: 1;
+    display: flex;
+    min-width: 300px;
+    overflow-x: auto;   
+}  
+.fall-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.inspired-section {
+    width: 100%;
+    height: 300px;
+    background-image: url('assets/Img/section-3-image.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.inspired-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.inspired-overlay h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+} 
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+}
+  
+.card {
+    width: 300px;
+    text-align: center;
+}
+  
+  .card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+}
+  
+.card h2 {
+    margin: 15px 0 10px;
+}
+  
+.card p {
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.subscribe {
+    background-image: url('assets/Img/section-5-image.webp'); /* Use your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    position: relative;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 40px;
+    border-radius: 8px;
+} 
+.subscribe h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+} 
+.subscribe p {
+    margin-bottom: 20px;
+    font-size: 16px;
+} 
+.subscribe form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}  
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    max-width: 100%;
+    border: non;
+}  
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    font-size: 14px;
+}  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}  
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}  
+.footer-links li {
+    margin-bottom: 10px;
+}  
+.footer-links a {
+    color: #333;
+}  
+.footer-contact {
+    text-align: right;
+  } 
+.footer-contact a {
+    color: #333;
+    text-decoration: none;
+}
+.footer-note {
+    text-align: center;
+    margin-top: 20px;
+    color: #999;
+}
